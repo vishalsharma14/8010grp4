@@ -8,10 +8,11 @@ namespace Sentence_Builder
     /// Interaction logic for MainWindow.xaml
     public partial class MainWindow : Window
     {
-        string[] words = { "code", "What", "I", "the", "am", "Who", "writing", "great", "are", "Where", "Hurray!", "is", "you", "playing",
+        string[] words = { "code", "What", "I", "the", "am", "Who", "writing",
+            "great", "are", "Where", "Hurray!", "is", "you", "playing",
             "driving", "That's", "weather", "doing", "cricket", "pleasant"};
 
-        List<String> WordsList = new List<String>();
+        List<String> wordsList = new List<String>();
 
         // Function to render buttons in WrapPanel for all the strings in array words
         void RenderButtons()
@@ -19,13 +20,13 @@ namespace Sentence_Builder
             foreach (string word in words)
             {
                 Button BtnWord = new Button
-                    {
-                        Content = word,
-                        Tag = word,
-                        Width = 100,
-                        Height = 30,
-                        Margin = new Thickness(10, 10, 10, 10)
-                    };
+                {
+                    Content = word,
+                    Tag = word,
+                    Width = 100,
+                    Height = 30,
+                    Margin = new Thickness(10, 10, 10, 10)
+                };
                 BtnWord.Click += BtnWord_Click; // Adding Click EventHandler for Button
                 ButtonsPanel.Children.Add(BtnWord);
             }
@@ -41,7 +42,7 @@ namespace Sentence_Builder
         private void SentenceBuilder()
         {
             LblSentence.Text = String.Empty;
-            foreach (string word in WordsList)
+            foreach (string word in wordsList)
             {
                 LblSentence.Text += (" " + word); // Button Content is appended to exisiting Text
             }
@@ -50,22 +51,19 @@ namespace Sentence_Builder
         // Function to handle redo button click event
         private void BtnUndo_Click(Object sender, EventArgs e)
         {
-            int WordsCount = WordsList.Count;
-            if (WordsCount > 0)
+            int wordsCount = wordsList.Count;
+            if (wordsCount > 0)
             {
-                WordsList.RemoveAt(WordsCount - 1);
+                wordsList.RemoveAt(wordsCount - 1);
                 SentenceBuilder();
             }
-            
         }
-
 
         // Function to handle word button click event
         private void BtnWord_Click(Object sender, EventArgs e)
         {
             string text = (string)((Button)sender).Tag;
-            // LblSentence.Text += (" " + text); // Button Content is appended to exisiting Text
-            WordsList.Add(text);
+            wordsList.Add(text);
             SentenceBuilder();
         }
 
@@ -73,8 +71,7 @@ namespace Sentence_Builder
         private void BtnClear_Click(object sender, RoutedEventArgs e)
         {
             LblSentence.Text = string.Empty;
-            WordsList.Clear();
+            wordsList.Clear();
         }
     }
 }
-
