@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -9,6 +10,8 @@ namespace Sentence_Builder
     {
         string[] words = { "code", "What", "I", "the", "am", "Who", "writing", "great", "are", "Where", "Hurray!", "is", "you", "playing",
             "driving", "That's", "weather", "doing", "cricket", "pleasant"};
+
+        List<String> WordsList = new List<String>();
 
         // Function to render buttons in WrapPanel for all the strings in array words
         void RenderButtons()
@@ -34,17 +37,43 @@ namespace Sentence_Builder
             RenderButtons();
         }
 
-        // Word Button Click Event Handler
-        void BtnWord_Click(Object sender, EventArgs e)
+        // Function to build sentence
+        private void SentenceBuilder()
         {
-            string text = (string)((Button)sender).Tag;
-            LblSentence.Text += (" " + text); // Button Content is appended to exisiting Text
+            LblSentence.Text = String.Empty;
+            foreach (string word in WordsList)
+            {
+                LblSentence.Text += (" " + word); // Button Content is appended to exisiting Text
+            }
         }
 
-        // Clear Button Click Event Handler
+        // Function to handle redo button click event
+        private void BtnUndo_Click(Object sender, EventArgs e)
+        {
+            int WordsCount = WordsList.Count;
+            if (WordsCount > 0)
+            {
+                WordsList.RemoveAt(WordsCount - 1);
+                SentenceBuilder();
+            }
+            
+        }
+
+
+        // Function to handle word button click event
+        private void BtnWord_Click(Object sender, EventArgs e)
+        {
+            string text = (string)((Button)sender).Tag;
+            // LblSentence.Text += (" " + text); // Button Content is appended to exisiting Text
+            WordsList.Add(text);
+            SentenceBuilder();
+        }
+
+        // Function to handle clear button click event
         private void BtnClear_Click(object sender, RoutedEventArgs e)
         {
             LblSentence.Text = string.Empty;
+            WordsList.Clear();
         }
     }
 }

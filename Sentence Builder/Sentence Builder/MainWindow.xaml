@@ -1,8 +1,8 @@
 ﻿<!-- 
     Group 4
-    Vishal
+    Vishal Vishal 8205031
     Gevindu
-    Rahul
+    Rahul Mandal 8258980
     Ramandeep
     Gurjinder
 -->
@@ -18,6 +18,7 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
+            <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height=".5*"/>
@@ -26,16 +27,18 @@
             <RowDefinition Height="2*" />
         </Grid.RowDefinitions>
         <Label Content="Sentence Builder" Grid.Row="0" FontSize="25" HorizontalContentAlignment="Center" 
-               VerticalContentAlignment="Center" Background="Gray" />
-        <Border BorderThickness="1" BorderBrush="Black" Grid.Row="1"  Margin="15" Padding="20" >
+               VerticalContentAlignment="Center" Background="Gray" Grid.ColumnSpan="2" />
+        <Border BorderThickness="1" BorderBrush="Black" Grid.Row="1"  Margin="15" Padding="20" Grid.ColumnSpan="2" >
             <!-- Used Text Block to wrap text overflow -->
-            <TextBlock TextWrapping="WrapWithOverflow" Name="LblSentence" FontSize="20"/>
+            <TextBlock TextWrapping="WrapWithOverflow" Name="LblSentence" FontSize="20" Grid.ColumnSpan="2" />
         </Border>
         <Button Name="BtnClear" Grid.Row="2" Content="Clear" Click="BtnClear_Click" Width="150" Margin="0" 
+                FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center" />
+        <Button Name="BtnUndo" Grid.Row="2" Grid.Column="1" Content="Undo" Click="BtnUndo_Click" Width="150" Margin="0" 
                 FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center" />
         <!-- WrapPanel is used to render word buttons from C# and auto wrapped in next row based on width 
              StackPanel can also be used but it won't wrap elements in next row -->
         <WrapPanel Orientation="Horizontal" Height="400" Grid.Row="3" HorizontalAlignment="Center" 
-                   Name="ButtonsPanel" Margin="0"/>
+                   Name="ButtonsPanel" Margin="0" Grid.ColumnSpan="2" />
     </Grid>
 </Window>
