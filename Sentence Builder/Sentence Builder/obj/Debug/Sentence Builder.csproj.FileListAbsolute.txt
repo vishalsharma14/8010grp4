@@ -1,0 +1,15 @@
+C:\Users\Vishu\source\repos\Sentence Builder\Sentence Builder\bin\Debug\Sentence Builder.exe.config
+C:\Users\Vishu\source\repos\Sentence Builder\Sentence Builder\bin\Debug\Sentence Builder.exe
+C:\Users\Vishu\source\repos\Sentence Builder\Sentence Builder\bin\Debug\Sentence Builder.pdb
+C:\Users\Vishu\source\repos\Sentence Builder\Sentence Builder\obj\Debug\Sentence Builder.csprojAssemblyReference.cache
+C:\Users\Vishu\source\repos\Sentence Builder\Sentence Builder\obj\Debug\MainWindow.g.cs
+C:\Users\Vishu\source\repos\Sentence Builder\Sentence Builder\obj\Debug\App.g.cs
+C:\Users\Vishu\source\repos\Sentence Builder\Sentence Builder\obj\Debug\Sentence Builder_MarkupCompile.cache
+C:\Users\Vishu\source\repos\Sentence Builder\Sentence Builder\obj\Debug\Sentence Builder_MarkupCompile.lref
+C:\Users\Vishu\source\repos\Sentence Builder\Sentence Builder\obj\Debug\MainWindow.baml
+C:\Users\Vishu\source\repos\Sentence Builder\Sentence Builder\obj\Debug\Sentence Builder.g.resources
+C:\Users\Vishu\source\repos\Sentence Builder\Sentence Builder\obj\Debug\Sentence_Builder.Properties.Resources.resources
+C:\Users\Vishu\source\repos\Sentence Builder\Sentence Builder\obj\Debug\Sentence Builder.csproj.GenerateResource.cache
+C:\Users\Vishu\source\repos\Sentence Builder\Sentence Builder\obj\Debug\Sentence Builder.csproj.CoreCompileInputs.cache
+C:\Users\Vishu\source\repos\Sentence Builder\Sentence Builder\obj\Debug\Sentence Builder.exe
+C:\Users\Vishu\source\repos\Sentence Builder\Sentence Builder\obj\Debug\Sentence Builder.pdb

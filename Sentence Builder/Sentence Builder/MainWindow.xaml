@@ -1,0 +1,41 @@
+﻿<!-- 
+    Group 4
+    Vishal
+    Gevindu
+    Rahul
+    Ramandeep
+    Gurjinder
+-->
+
+<Window x:Class="Sentence_Builder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sentence_Builder"
+        mc:Ignorable="d"
+        Title="Sentence Builder" Height="600" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Label Content="Sentence Builder" Grid.Row="0" FontSize="25" HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center" Background="Gray" />
+        <Border BorderThickness="1" BorderBrush="Black" Grid.Row="1"  Margin="15" Padding="20" >
+            <!-- Used Text Block to wrap text overflow -->
+            <TextBlock TextWrapping="WrapWithOverflow" Name="LblSentence" FontSize="20"/>
+        </Border>
+        <Button Name="BtnClear" Grid.Row="2" Content="Clear" Click="BtnClear_Click" Width="150" Margin="0" 
+                FontSize="20" VerticalAlignment="Center" VerticalContentAlignment="Center" />
+        <!-- WrapPanel is used to render word buttons from C# and auto wrapped in next row based on width 
+             StackPanel can also be used but it won't wrap elements in next row -->
+        <WrapPanel Orientation="Horizontal" Height="400" Grid.Row="3" HorizontalAlignment="Center" 
+                   Name="ButtonsPanel" Margin="0"/>
+    </Grid>
+</Window>
