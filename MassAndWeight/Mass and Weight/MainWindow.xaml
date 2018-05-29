@@ -1,0 +1,89 @@
+﻿<!-- 
+    MassAndWeight - A3 - Group4
+    Vishal V.    8205031
+    Gevindu M.
+    Rahul M.     8258980
+    Ramandeep K.
+    Gurjinder S.
+-->
+    <Window x:Class="Mass_and_Weight.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mass_and_Weight"
+        mc:Ignorable="d"
+        Title="Weight Calculator"
+        Height="450"
+        Width="800"
+        ResizeMode="NoResize"
+        >
+    <Grid Background="AliceBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="4*" />
+        </Grid.RowDefinitions>
+        <Label
+            Background="AntiqueWhite"
+            Content="Weight Calculator"
+            FontSize="25"
+            Grid.Row="0"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            />
+        <Label
+            Content="Enter the mass of the object (in Kg)"
+            FontSize="20"
+            Grid.Row="1"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Bottom"
+            />
+        <TextBox
+            FontSize="30"
+            Grid.Row="2"
+            HorizontalAlignment="Center"
+            Name="TbInputMass"
+            Padding="10,0"
+            PreviewTextInput="TbInputMass_PreviewTextInput"
+            Text="{Binding Mass}"
+            TextChanged="TbInputMass_TextChanged"
+            VerticalContentAlignment="Center"
+            Width="300"
+            />
+        <Button
+            Background="#8e8989"
+            Click="BtnCalculateWeight_Click"
+            Content="Calculate Weight"
+            FontSize="20"
+            Grid.Row="3"
+            HorizontalContentAlignment="Center"
+            IsEnabled="False"
+            Margin="10"
+            Name="BtnCalculateWeight"
+            VerticalContentAlignment="Center"
+            Width="300"
+            />
+        <StackPanel Grid.Row="4">
+            <Label
+                Content="{Binding Weight}"
+                FontSize="40"
+                Height="60"
+                HorizontalContentAlignment="Center"
+                Margin="20"
+                Name="LblWeight"
+                VerticalContentAlignment="Center"
+                />
+            <Label
+                Content="{Binding WeightDescription}"
+                FontSize="28"
+                Height="60"
+                HorizontalContentAlignment="Center"
+                Name="LblWeightDescription"
+                VerticalContentAlignment="Center"
+                />
+        </StackPanel>
+    </Grid>
+</Window>

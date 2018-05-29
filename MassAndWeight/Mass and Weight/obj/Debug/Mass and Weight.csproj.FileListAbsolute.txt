@@ -1,0 +1,30 @@
+\\Mac\Home\Desktop\INFO_8010\8010grp4\Mass_and_Weight\Mass and Weight\Mass and Weight\bin\Debug\Mass and Weight.exe.config
+\\Mac\Home\Desktop\INFO_8010\8010grp4\Mass_and_Weight\Mass and Weight\Mass and Weight\bin\Debug\Mass and Weight.exe
+\\Mac\Home\Desktop\INFO_8010\8010grp4\Mass_and_Weight\Mass and Weight\Mass and Weight\bin\Debug\Mass and Weight.pdb
+\\Mac\Home\Desktop\INFO_8010\8010grp4\Mass_and_Weight\Mass and Weight\Mass and Weight\obj\Debug\Mass and Weight.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\INFO_8010\8010grp4\Mass_and_Weight\Mass and Weight\Mass and Weight\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\INFO_8010\8010grp4\Mass_and_Weight\Mass and Weight\Mass and Weight\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\INFO_8010\8010grp4\Mass_and_Weight\Mass and Weight\Mass and Weight\obj\Debug\Mass and Weight_MarkupCompile.cache
+\\Mac\Home\Desktop\INFO_8010\8010grp4\Mass_and_Weight\Mass and Weight\Mass and Weight\obj\Debug\Mass and Weight_MarkupCompile.lref
+\\Mac\Home\Desktop\INFO_8010\8010grp4\Mass_and_Weight\Mass and Weight\Mass and Weight\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\INFO_8010\8010grp4\Mass_and_Weight\Mass and Weight\Mass and Weight\obj\Debug\Mass and Weight.g.resources
+\\Mac\Home\Desktop\INFO_8010\8010grp4\Mass_and_Weight\Mass and Weight\Mass and Weight\obj\Debug\Mass_and_Weight.Properties.Resources.resources
+\\Mac\Home\Desktop\INFO_8010\8010grp4\Mass_and_Weight\Mass and Weight\Mass and Weight\obj\Debug\Mass and Weight.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\INFO_8010\8010grp4\Mass_and_Weight\Mass and Weight\Mass and Weight\obj\Debug\Mass and Weight.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\INFO_8010\8010grp4\Mass_and_Weight\Mass and Weight\Mass and Weight\obj\Debug\Mass and Weight.exe
+\\Mac\Home\Desktop\INFO_8010\8010grp4\Mass_and_Weight\Mass and Weight\Mass and Weight\obj\Debug\Mass and Weight.pdb
+\\Mac\Home\Desktop\INFO_8010\8010grp4\MassAndWeight\Mass and Weight\obj\Debug\Mass and Weight.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\INFO_8010\8010grp4\MassAndWeight\Mass and Weight\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\INFO_8010\8010grp4\MassAndWeight\Mass and Weight\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\INFO_8010\8010grp4\MassAndWeight\Mass and Weight\obj\Debug\Mass and Weight_MarkupCompile.cache
+\\Mac\Home\Desktop\INFO_8010\8010grp4\MassAndWeight\Mass and Weight\obj\Debug\Mass and Weight_MarkupCompile.lref
+\\Mac\Home\Desktop\INFO_8010\8010grp4\MassAndWeight\Mass and Weight\obj\Debug\Mass and Weight.exe
+\\Mac\Home\Desktop\INFO_8010\8010grp4\MassAndWeight\Mass and Weight\obj\Debug\Mass and Weight.pdb
+\\Mac\Home\Desktop\INFO_8010\8010grp4\MassAndWeight\Mass and Weight\bin\Debug\Mass and Weight.exe.config
+\\Mac\Home\Desktop\INFO_8010\8010grp4\MassAndWeight\Mass and Weight\bin\Debug\Mass and Weight.exe
+\\Mac\Home\Desktop\INFO_8010\8010grp4\MassAndWeight\Mass and Weight\bin\Debug\Mass and Weight.pdb
+\\Mac\Home\Desktop\INFO_8010\8010grp4\MassAndWeight\Mass and Weight\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\INFO_8010\8010grp4\MassAndWeight\Mass and Weight\obj\Debug\Mass and Weight.g.resources
+\\Mac\Home\Desktop\INFO_8010\8010grp4\MassAndWeight\Mass and Weight\obj\Debug\Mass_and_Weight.Properties.Resources.resources
+\\Mac\Home\Desktop\INFO_8010\8010grp4\MassAndWeight\Mass and Weight\obj\Debug\Mass and Weight.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\INFO_8010\8010grp4\MassAndWeight\Mass and Weight\obj\Debug\Mass and Weight.csproj.CoreCompileInputs.cache
