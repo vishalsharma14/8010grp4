@@ -1,0 +1,98 @@
+﻿<!-- 
+    BeeBreeding - FinalAssignment - Group4
+    Vishal V.    8205031
+    Gevindu M.   8060295
+    Rahul M.     8258980
+    Ramandeep K. 8261570
+    Gurjinder S. 8261661
+-->
+<Window x:Class="BeeBreeding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BeeBreeding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#C1E7EE">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Label 
+            Grid.Row="0"
+            Content ="Bee Breeding"
+            FontSize="35"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Foreground="#564E4B"
+            FontWeight="Bold"
+            />
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Label 
+                Content ="Enter first Number: "
+                FontSize="30"
+                Width="500"
+                HorizontalContentAlignment="Right"
+                VerticalContentAlignment="Center"
+                Foreground="#564E4B"
+                FontWeight="Bold"
+                Padding="20,0"
+                />
+            <TextBox
+                FontSize="30"
+                Text="{Binding FirstNum, UpdateSourceTrigger=PropertyChanged}"
+                Width="200"
+                Height="50"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Background="#E6E6E6"
+                />
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <Label 
+                Content ="Enter second Number: "
+                FontSize="30"
+                Width="500"
+                HorizontalContentAlignment="Right"
+                VerticalContentAlignment="Center"
+                Foreground="#564E4B"
+                FontWeight="Bold"
+                Padding="20,0"
+                />
+            <TextBox
+                FontSize="30"
+                Text="{Binding SecondNum, UpdateSourceTrigger=PropertyChanged}"
+                Width="200"
+                Height="50"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Background="#E6E6E6"
+                />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="3" HorizontalAlignment="Center">
+            <Label 
+                Content ="Distance : "
+                FontSize="35"
+                Foreground="#564E4B"
+                Visibility="{Binding OutputLabel}"
+                HorizontalContentAlignment="Center"
+                VerticalAlignment="Center"
+                FontWeight="Bold"
+                Margin="10,0,0,0"
+                />
+            <Label 
+                Content ="{Binding Distance}"
+                FontSize="30"
+                Foreground="#564E4B"
+                HorizontalContentAlignment="Center"
+                VerticalAlignment="Center"
+                FontWeight="Bold"
+                Margin="10,0,0,0"
+                />
+        </StackPanel>
+
+    </Grid>
+</Window>

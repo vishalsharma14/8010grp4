@@ -1,0 +1,15 @@
+C:\Users\Vishu\source\repos\BeeBreeding\BeeBreeding\bin\Debug\BeeBreeding.exe.config
+C:\Users\Vishu\source\repos\BeeBreeding\BeeBreeding\bin\Debug\BeeBreeding.exe
+C:\Users\Vishu\source\repos\BeeBreeding\BeeBreeding\bin\Debug\BeeBreeding.pdb
+C:\Users\Vishu\source\repos\BeeBreeding\BeeBreeding\obj\Debug\BeeBreeding.csprojAssemblyReference.cache
+C:\Users\Vishu\source\repos\BeeBreeding\BeeBreeding\obj\Debug\MainWindow.g.cs
+C:\Users\Vishu\source\repos\BeeBreeding\BeeBreeding\obj\Debug\App.g.cs
+C:\Users\Vishu\source\repos\BeeBreeding\BeeBreeding\obj\Debug\BeeBreeding_MarkupCompile.cache
+C:\Users\Vishu\source\repos\BeeBreeding\BeeBreeding\obj\Debug\BeeBreeding_MarkupCompile.lref
+C:\Users\Vishu\source\repos\BeeBreeding\BeeBreeding\obj\Debug\MainWindow.baml
+C:\Users\Vishu\source\repos\BeeBreeding\BeeBreeding\obj\Debug\BeeBreeding.g.resources
+C:\Users\Vishu\source\repos\BeeBreeding\BeeBreeding\obj\Debug\BeeBreeding.Properties.Resources.resources
+C:\Users\Vishu\source\repos\BeeBreeding\BeeBreeding\obj\Debug\BeeBreeding.csproj.GenerateResource.cache
+C:\Users\Vishu\source\repos\BeeBreeding\BeeBreeding\obj\Debug\BeeBreeding.csproj.CoreCompileInputs.cache
+C:\Users\Vishu\source\repos\BeeBreeding\BeeBreeding\obj\Debug\BeeBreeding.exe
+C:\Users\Vishu\source\repos\BeeBreeding\BeeBreeding\obj\Debug\BeeBreeding.pdb
