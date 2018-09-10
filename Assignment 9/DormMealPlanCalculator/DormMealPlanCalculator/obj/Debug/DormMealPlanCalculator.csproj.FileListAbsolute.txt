@@ -1,0 +1,34 @@
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\bin\Debug\DormMealPlanCalculator.exe.config
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\bin\Debug\DormMealPlanCalculator.exe
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\bin\Debug\DormMealPlanCalculator.pdb
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator.csprojAssemblyReference.cache
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\App.g.cs
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator_MarkupCompile.cache
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator_MarkupCompile.lref
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\MainWindow.baml
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator.g.resources
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator.Properties.Resources.resources
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator.csproj.GenerateResource.cache
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator.exe
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator.pdb
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\CalculatorOutput.g.cs
+C:\Users\Vishu\source\repos\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\CalculatorOutput.baml
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\bin\Debug\DormMealPlanCalculator.exe.config
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\bin\Debug\DormMealPlanCalculator.exe
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\bin\Debug\DormMealPlanCalculator.pdb
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator.csprojAssemblyReference.cache
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\CalculatorOutput.g.cs
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\MainWindow.g.cs
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\App.g.cs
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator_MarkupCompile.cache
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator_MarkupCompile.lref
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\CalculatorOutput.baml
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\MainWindow.baml
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator.g.resources
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator.Properties.Resources.resources
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator.csproj.GenerateResource.cache
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator.csproj.CoreCompileInputs.cache
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator.exe
+Z:\Desktop\INFO_8010\8010grp4\Assignment 9\DormMealPlanCalculator\DormMealPlanCalculator\obj\Debug\DormMealPlanCalculator.pdb
