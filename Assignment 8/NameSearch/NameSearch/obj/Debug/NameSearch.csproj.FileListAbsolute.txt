@@ -1,0 +1,15 @@
+C:\Users\Vishu\source\repos\NameSearch\NameSearch\obj\Debug\NameSearch.csprojAssemblyReference.cache
+C:\Users\Vishu\source\repos\NameSearch\NameSearch\obj\Debug\MainWindow.g.cs
+C:\Users\Vishu\source\repos\NameSearch\NameSearch\obj\Debug\App.g.cs
+C:\Users\Vishu\source\repos\NameSearch\NameSearch\obj\Debug\NameSearch_MarkupCompile.cache
+C:\Users\Vishu\source\repos\NameSearch\NameSearch\obj\Debug\NameSearch_MarkupCompile.lref
+C:\Users\Vishu\source\repos\NameSearch\NameSearch\bin\Debug\NameSearch.exe.config
+C:\Users\Vishu\source\repos\NameSearch\NameSearch\bin\Debug\NameSearch.exe
+C:\Users\Vishu\source\repos\NameSearch\NameSearch\bin\Debug\NameSearch.pdb
+C:\Users\Vishu\source\repos\NameSearch\NameSearch\obj\Debug\MainWindow.baml
+C:\Users\Vishu\source\repos\NameSearch\NameSearch\obj\Debug\NameSearch.g.resources
+C:\Users\Vishu\source\repos\NameSearch\NameSearch\obj\Debug\NameSearch.Properties.Resources.resources
+C:\Users\Vishu\source\repos\NameSearch\NameSearch\obj\Debug\NameSearch.csproj.GenerateResource.cache
+C:\Users\Vishu\source\repos\NameSearch\NameSearch\obj\Debug\NameSearch.csproj.CoreCompileInputs.cache
+C:\Users\Vishu\source\repos\NameSearch\NameSearch\obj\Debug\NameSearch.exe
+C:\Users\Vishu\source\repos\NameSearch\NameSearch\obj\Debug\NameSearch.pdb
