@@ -1,0 +1,144 @@
+﻿<!-- 
+    AdditionTutor - A5 - Group4
+    Vishal V.    8205031
+    Gevindu M.
+    Rahul M.     8258980
+    Ramandeep K.
+    Gurjinder S.
+-->
+<Window x:Class="AdditionTutor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdditionTutor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="#CED8F6" Loaded="Window_Loaded">
+    <Grid>
+        <Grid Visibility="{Binding DisplayNewQuiz}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="3*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Label
+                Grid.Row="0"
+                FontSize="30"
+                Content="Addition Tutor"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Background="AliceBlue"
+                FontWeight="Bold"
+                />
+            <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center">
+                <Label
+                    FontSize="60"
+                    Content="{Binding AdditionTutor.FirstNumber}"
+                    Width="130"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    />
+                <Label
+                    FontSize="60"
+                    Content="+"
+                    Width="100"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    />
+                <Label
+                    FontSize="60"
+                    Content="{Binding AdditionTutor.SecondNumber, UpdateSourceTrigger=PropertyChanged}"
+                    Width="130"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    />
+                <Label
+                    FontSize="60"
+                    Content="="
+                    Width="100"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    />
+                <TextBox
+                    FontSize="60"
+                    Text="{Binding InputValue, TargetNullValue=null}"
+                    Name="TbInput"
+                    Width="200"
+                    Height="100"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Background="#E6E6E6"
+                    TextChanged="TbInput_TextChanged"
+                    PreviewTextInput="TbInput_PreviewTextInput"
+                    />
+            </StackPanel>
+            <Border 
+                CornerRadius="5"
+                Grid.Row="2"
+                Height="60"
+                Width="200"
+                BorderBrush="DarkGray"
+                Background="DarkGray"
+                >
+                <Button
+                    Margin="0"
+                    FontSize="30"
+                    Content="Submit"
+                    Name="BtnSubmit"
+                    IsEnabled="False"
+                    BorderBrush="Transparent"
+                    Click="BtnSubmit_Click"
+                    />
+            </Border>
+        </Grid>
+        <Grid Visibility="{Binding DisplayQuizResult}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+            <Label
+                Grid.Row="0"
+                FontSize="30"
+                Content="Addition Tutor"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Background="AliceBlue"
+                FontWeight="Bold"
+                />
+            <Label
+                FontSize="40"
+                Content="{Binding Output}"
+                Grid.Row="1"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                />
+            <Label
+                FontSize="40"
+                Content="{Binding OutputExpression}"
+                Grid.Row="2"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                />
+            <Border 
+                CornerRadius="5"
+                Grid.Row="3"
+                Height="60"
+                Width="200"
+                BorderBrush="DarkGray"
+                Background="DarkGray"
+                >
+                <Button
+                    Margin="0"
+                    FontSize="30"
+                    Content="New Quiz"
+                    Name="BtnNewQuiz"
+                    Click="BtnNewQuiz_Click"
+                    BorderBrush="Transparent"
+                    />
+            </Border>
+        </Grid>
+    </Grid>
+</Window>

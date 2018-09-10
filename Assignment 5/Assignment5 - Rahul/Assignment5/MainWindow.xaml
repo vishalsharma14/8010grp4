@@ -1,0 +1,72 @@
+﻿<Window x:Class="Assignment5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment5"
+        mc:Ignorable="d"
+        Title="Addition Tutor" Height="450" Width="800" Background="AntiqueWhite" ResizeMode="NoResize">
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox ItemsSource="{Binding Things}" BorderBrush="BurlyWood" BorderThickness="5"  Grid.RowSpan="3" Grid.Column="0" Margin="10"  />
+        <Border Grid.Row="0" Grid.Column="1" Margin="5" Padding="22" Background="AntiqueWhite" 
+          BorderBrush="BurlyWood" BorderThickness="5" CornerRadius="3"
+          VerticalAlignment="Top">
+        <StackPanel Orientation="Vertical"  HorizontalAlignment="Center" VerticalAlignment="Center">
+            
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+                <GroupBox Header="Correct Answer" Margin="-10" FontSize="13">
+                    <TextBox Text="{Binding CorrectAnswer}" FontSize="20" Width="100" BorderBrush="Black" />
+                </GroupBox>
+            </StackPanel>
+            
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+                <GroupBox Header="Time Left" Margin="10" FontSize="13">
+                    <TextBox Text="{Binding CountTime}" FontSize="20"  Width="150" BorderBrush="Black"/>
+                </GroupBox>
+            </StackPanel>
+        </StackPanel>
+        </Border>
+
+        <Border Grid.Row="1" Grid.Column="1" Margin="5" Padding="15" Background="AntiqueWhite" 
+          BorderBrush="BurlyWood" BorderThickness="5" CornerRadius="3"
+          VerticalAlignment="Top">
+            <StackPanel Orientation="Vertical"  HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+
+                    <Label Content="{Binding Addition1}" FontSize="20" />
+                    <Label Content="+" FontSize="20" />
+                    <Label Content="{Binding Addition2}" FontSize="20"/>
+                    <Label Content="=" FontSize="20"/>
+
+                    <StackPanel Orientation="Vertical">
+                        <TextBox Text="{Binding UserAnswer}" Padding="5" BorderBrush="Black" PreviewTextInput="TextBox_PreviewTextInput"  FontSize="20"   Width="100"/>
+                        <Label Content="{Binding Validation}" FontSize="10" Foreground="Red"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Row="2" Grid.Column="1" Margin="5" Padding="5" Background="AntiqueWhite" 
+          BorderBrush="BurlyWood" BorderThickness="5" CornerRadius="3"
+          VerticalAlignment="Top">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Name="btnCheck" HorizontalAlignment="left" Content="Check" BorderBrush="Black" Background="White" FontWeight="Bold" IsEnabled="{Binding btnCheck}"  Margin="10" Width="150" Height="50" FontSize="20"  Click="btnCheck_Click"/>
+                <Button  Click="Button_Click" Margin="10" Background="AntiqueWhite" BorderBrush="AntiqueWhite">
+                    <Image Source="refresh.png" Height="50" Width="60" HorizontalAlignment="Right"/>
+                </Button>
+            </StackPanel>
+        </Border>
+        
+    </Grid>
+    
+</Window>

@@ -1,0 +1,15 @@
+c:\users\vishu\source\repos\AdditionTutor\AdditionTutor\obj\Debug\AdditionTutor.csprojAssemblyReference.cache
+c:\users\vishu\source\repos\AdditionTutor\AdditionTutor\obj\Debug\App.g.cs
+c:\users\vishu\source\repos\AdditionTutor\AdditionTutor\obj\Debug\AdditionTutor_MarkupCompile.cache
+c:\users\vishu\source\repos\AdditionTutor\AdditionTutor\bin\Debug\AdditionTutor.exe.config
+c:\users\vishu\source\repos\AdditionTutor\AdditionTutor\bin\Debug\AdditionTutor.exe
+c:\users\vishu\source\repos\AdditionTutor\AdditionTutor\bin\Debug\AdditionTutor.pdb
+c:\users\vishu\source\repos\AdditionTutor\AdditionTutor\obj\Debug\MainWindow.g.cs
+c:\users\vishu\source\repos\AdditionTutor\AdditionTutor\obj\Debug\AdditionTutor_MarkupCompile.lref
+c:\users\vishu\source\repos\AdditionTutor\AdditionTutor\obj\Debug\MainWindow.baml
+c:\users\vishu\source\repos\AdditionTutor\AdditionTutor\obj\Debug\AdditionTutor.g.resources
+c:\users\vishu\source\repos\AdditionTutor\AdditionTutor\obj\Debug\AdditionTutor.Properties.Resources.resources
+c:\users\vishu\source\repos\AdditionTutor\AdditionTutor\obj\Debug\AdditionTutor.csproj.GenerateResource.cache
+c:\users\vishu\source\repos\AdditionTutor\AdditionTutor\obj\Debug\AdditionTutor.csproj.CoreCompileInputs.cache
+c:\users\vishu\source\repos\AdditionTutor\AdditionTutor\obj\Debug\AdditionTutor.exe
+c:\users\vishu\source\repos\AdditionTutor\AdditionTutor\obj\Debug\AdditionTutor.pdb
