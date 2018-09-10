@@ -1,0 +1,82 @@
+<Window x:Class="DistanceConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DistanceConverter"
+        mc:Ignorable="d"
+        Title="Distance Converter" Height="450" Width="800" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style x:Key="_ListBoxItemStyle" TargetType="ListBoxItem">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border Name="_Border"
+                                Padding="2"
+                                SnapsToDevicePixels="true">
+                            <ContentPresenter />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsSelected" Value="true">
+                                <Setter TargetName="_Border" Property="Background" Value="#87ceeb"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Label
+            Background="AntiqueWhite"
+            Grid.Row="0"
+            Content="Distance Converter"
+            FontSize="40"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            />
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox
+                FontSize="30"
+                Width="300"
+                Padding="20,0"
+                Height="50"
+                Foreground="Black"
+                Text="{Binding TbInput}"
+                VerticalAlignment="Center"
+                VerticalContentAlignment="Center"
+                Margin="20"
+                />
+            <GroupBox Header="From" Grid.Column="0" Grid.Row="1" FontSize="20" Margin="20">
+                <ListBox 
+                VerticalAlignment="Center" 
+                Margin="20"
+                FontSize="20"
+                Name="LbFromUnit"
+                SelectedItem="{Binding SelectedFromUnit}"
+                Padding="10,0"
+                >
+                </ListBox>
+            </GroupBox>
+            <GroupBox Header="To" Grid.Column="0" Grid.Row="1" FontSize="20" Margin="20">
+                <ListBox
+                VerticalAlignment="Center" 
+                Margin="20"
+                FontSize="20"
+                Name="LbToUnit"
+                Padding="10,0"
+                SelectedItem="{Binding SelectedToUnit}"
+                >
+                </ListBox>
+            </GroupBox>
+        </StackPanel>
+        <Label Grid.Row="2" Content="{Binding LblDistance}" />
+    </Grid>
+</Window>

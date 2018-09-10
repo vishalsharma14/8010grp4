@@ -1,0 +1,15 @@
+C:\Users\Vishu\source\repos\DistanceConverter\DistanceConverter\bin\Debug\DistanceConverter.exe.config
+C:\Users\Vishu\source\repos\DistanceConverter\DistanceConverter\bin\Debug\DistanceConverter.exe
+C:\Users\Vishu\source\repos\DistanceConverter\DistanceConverter\bin\Debug\DistanceConverter.pdb
+C:\Users\Vishu\source\repos\DistanceConverter\DistanceConverter\obj\Debug\DistanceConverter.csprojAssemblyReference.cache
+C:\Users\Vishu\source\repos\DistanceConverter\DistanceConverter\obj\Debug\MainWindow.g.cs
+C:\Users\Vishu\source\repos\DistanceConverter\DistanceConverter\obj\Debug\App.g.cs
+C:\Users\Vishu\source\repos\DistanceConverter\DistanceConverter\obj\Debug\DistanceConverter_MarkupCompile.cache
+C:\Users\Vishu\source\repos\DistanceConverter\DistanceConverter\obj\Debug\DistanceConverter_MarkupCompile.lref
+C:\Users\Vishu\source\repos\DistanceConverter\DistanceConverter\obj\Debug\MainWindow.baml
+C:\Users\Vishu\source\repos\DistanceConverter\DistanceConverter\obj\Debug\DistanceConverter.g.resources
+C:\Users\Vishu\source\repos\DistanceConverter\DistanceConverter\obj\Debug\DistanceConverter.Properties.Resources.resources
+C:\Users\Vishu\source\repos\DistanceConverter\DistanceConverter\obj\Debug\DistanceConverter.csproj.GenerateResource.cache
+C:\Users\Vishu\source\repos\DistanceConverter\DistanceConverter\obj\Debug\DistanceConverter.csproj.CoreCompileInputs.cache
+C:\Users\Vishu\source\repos\DistanceConverter\DistanceConverter\obj\Debug\DistanceConverter.exe
+C:\Users\Vishu\source\repos\DistanceConverter\DistanceConverter\obj\Debug\DistanceConverter.pdb

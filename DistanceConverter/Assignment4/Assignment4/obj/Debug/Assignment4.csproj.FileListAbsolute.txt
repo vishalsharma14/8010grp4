@@ -1,0 +1,15 @@
+C:\Users\RahulMandal\source\repos\Assignment4\Assignment4\bin\Debug\Assignment4.exe.config
+C:\Users\RahulMandal\source\repos\Assignment4\Assignment4\bin\Debug\Assignment4.exe
+C:\Users\RahulMandal\source\repos\Assignment4\Assignment4\bin\Debug\Assignment4.pdb
+C:\Users\RahulMandal\source\repos\Assignment4\Assignment4\obj\Debug\Assignment4.csprojAssemblyReference.cache
+C:\Users\RahulMandal\source\repos\Assignment4\Assignment4\obj\Debug\MainWindow.g.cs
+C:\Users\RahulMandal\source\repos\Assignment4\Assignment4\obj\Debug\App.g.cs
+C:\Users\RahulMandal\source\repos\Assignment4\Assignment4\obj\Debug\Assignment4_MarkupCompile.cache
+C:\Users\RahulMandal\source\repos\Assignment4\Assignment4\obj\Debug\Assignment4_MarkupCompile.lref
+C:\Users\RahulMandal\source\repos\Assignment4\Assignment4\obj\Debug\MainWindow.baml
+C:\Users\RahulMandal\source\repos\Assignment4\Assignment4\obj\Debug\Assignment4.g.resources
+C:\Users\RahulMandal\source\repos\Assignment4\Assignment4\obj\Debug\Assignment4.Properties.Resources.resources
+C:\Users\RahulMandal\source\repos\Assignment4\Assignment4\obj\Debug\Assignment4.csproj.GenerateResource.cache
+C:\Users\RahulMandal\source\repos\Assignment4\Assignment4\obj\Debug\Assignment4.csproj.CoreCompileInputs.cache
+C:\Users\RahulMandal\source\repos\Assignment4\Assignment4\obj\Debug\Assignment4.exe
+C:\Users\RahulMandal\source\repos\Assignment4\Assignment4\obj\Debug\Assignment4.pdb
