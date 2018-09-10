@@ -1,0 +1,58 @@
+﻿<!-- 
+    PayRates - A10 - Group4
+    Vishal V.    8205031
+    Gevindu M.   8060295
+    Rahul M.     8258980
+    Ramandeep K. 8261570
+    Gurjinder S. 8261661
+-->
+<Window x:Class="PayRates.Output"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PayRates"
+        mc:Ignorable="d"
+        Title="Output" Height="450" Width="800"
+        ResizeMode="NoResize">
+    <Grid Background="#C1E7EE">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Label 
+            Content ="{Binding OutputPayPerHourMsg}"
+            ContentStringFormat=" {0} Pay Rate"
+            FontSize="35"
+            Foreground="#564E4B"
+            HorizontalContentAlignment="Center"
+            VerticalAlignment="Center"
+            FontWeight="Bold"
+            Margin="10,0,0,0"
+            />
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center">
+            <Label 
+                Content ="{Binding OutputPayPerHourMsg}"
+                ContentStringFormat=" {0} Pay Per Hour :"
+                FontSize="35"
+                Foreground="#564E4B"
+                HorizontalContentAlignment="Center"
+                VerticalAlignment="Center"
+                FontWeight="Bold"
+                Margin="10,0,0,0"
+                />
+            <Label 
+                Content ="{Binding OutputPayPerHour}"
+                ContentStringFormat="c"
+                FontSize="30"
+                Foreground="#564E4B"
+                HorizontalContentAlignment="Center"
+                VerticalAlignment="Center"
+                FontWeight="Bold"
+                Margin="10,0,0,0"
+                />
+        </StackPanel>
+
+    </Grid>
+</Window>

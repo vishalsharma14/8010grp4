@@ -1,0 +1,17 @@
+C:\Users\Vishu\source\repos\PayRates\PayRates\bin\Debug\PayRates.exe.config
+C:\Users\Vishu\source\repos\PayRates\PayRates\bin\Debug\PayRates.exe
+C:\Users\Vishu\source\repos\PayRates\PayRates\bin\Debug\PayRates.pdb
+C:\Users\Vishu\source\repos\PayRates\PayRates\obj\Debug\PayRates.csprojAssemblyReference.cache
+C:\Users\Vishu\source\repos\PayRates\PayRates\obj\Debug\MainWindow.g.cs
+C:\Users\Vishu\source\repos\PayRates\PayRates\obj\Debug\App.g.cs
+C:\Users\Vishu\source\repos\PayRates\PayRates\obj\Debug\PayRates_MarkupCompile.cache
+C:\Users\Vishu\source\repos\PayRates\PayRates\obj\Debug\PayRates_MarkupCompile.lref
+C:\Users\Vishu\source\repos\PayRates\PayRates\obj\Debug\MainWindow.baml
+C:\Users\Vishu\source\repos\PayRates\PayRates\obj\Debug\PayRates.g.resources
+C:\Users\Vishu\source\repos\PayRates\PayRates\obj\Debug\PayRates.Properties.Resources.resources
+C:\Users\Vishu\source\repos\PayRates\PayRates\obj\Debug\PayRates.csproj.GenerateResource.cache
+C:\Users\Vishu\source\repos\PayRates\PayRates\obj\Debug\PayRates.csproj.CoreCompileInputs.cache
+C:\Users\Vishu\source\repos\PayRates\PayRates\obj\Debug\PayRates.exe
+C:\Users\Vishu\source\repos\PayRates\PayRates\obj\Debug\PayRates.pdb
+C:\Users\Vishu\source\repos\PayRates\PayRates\obj\Debug\Output.g.cs
+C:\Users\Vishu\source\repos\PayRates\PayRates\obj\Debug\Output.baml
